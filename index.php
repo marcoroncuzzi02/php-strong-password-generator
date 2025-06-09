@@ -8,9 +8,11 @@
 <body>
     <h1>Password generator</h1>
 
-    <form action="password_get" method="GET">
-        Lunghezza password: <input type="number"> <br>
+    <form action="password_get.php" method="GET">
+        Lunghezza password: <input type="number" name="password_target"> <br>
         <input type="submit">
     </form>
+
+    
 </body>
 </html>
